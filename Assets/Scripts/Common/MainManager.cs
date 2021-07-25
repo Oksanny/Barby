@@ -35,7 +35,7 @@ public class MainManager : MonoBehaviour
         CommonData.mainManager = this;
         CommonData.stateManager = stateManager;
       
-        stateManager.PushState(new States.ChooseGirls());
+        stateManager.PushState(new States.StartMenu());
     }
     
 }

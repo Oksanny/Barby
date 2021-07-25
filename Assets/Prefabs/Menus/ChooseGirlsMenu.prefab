@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 2095092404372351305}
   - component: {fileID: 2095092404372351310}
   - component: {fileID: 3419619789170157289}
+  - component: {fileID: 5564023154874425081}
   m_Layer: 5
   m_Name: RawImage (3)
   m_TagString: Untagged
@@ -350,6 +351,19 @@ MonoBehaviour:
   OnClicked: {fileID: 0}
   hover: 0
   press: 0
+--- !u!114 &5564023154874425081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095092404372351308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa9fb15b7b99ed40954491b66ff9eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 2
 --- !u!1 &2095092404460554736
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +496,7 @@ GameObject:
   - component: {fileID: 2095092405012737768}
   - component: {fileID: 2095092405012737769}
   - component: {fileID: 4236068919610777368}
+  - component: {fileID: 2417744527653449279}
   m_Layer: 5
   m_Name: RawImage (2)
   m_TagString: Untagged
@@ -594,6 +609,19 @@ MonoBehaviour:
   OnClicked: {fileID: 0}
   hover: 0
   press: 0
+--- !u!114 &2417744527653449279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095092405012737775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa9fb15b7b99ed40954491b66ff9eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 3
 --- !u!1 &2095092405045387137
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +634,7 @@ GameObject:
   - component: {fileID: 2095092405045387148}
   - component: {fileID: 2095092405045387149}
   - component: {fileID: 2095092405045387138}
+  - component: {fileID: 9099841974476573892}
   m_Layer: 5
   m_Name: Magnetic Scroll View
   m_TagString: Untagged
@@ -686,7 +715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewport: {fileID: 2095092404460554739}
-  inertia: 1
+  inertia: 0
   transitionCurve:
     serializedVersion: 2
     m_Curve:
@@ -749,14 +778,14 @@ MonoBehaviour:
   - {fileID: 2095092405012737774}
   - {fileID: 2095092404372351311}
   indexTableManager: {fileID: 0}
-  m_swipeDetect: {fileID: 0}
+  m_swipeDetect: {fileID: 9099841974476573892}
   m_autoArranging: 0
   m_invertOrder: 0
   m_infiniteScrolling: 1
   m_useMargin: 1
   m_rotate: 1
   m_elementsSize: {x: 815, y: 1450}
-  m_snapMode: 1
+  m_snapMode: 0
   m_resizeMode: 0
   m_alignment: 0
   m_layoutMode: 0
@@ -766,11 +795,75 @@ MonoBehaviour:
   m_circularFactor: 0
   m_distanceOffset: 0
   m_decelerationRate: 0.15
-  m_transitionSpeed: 5.22
-  m_dragDelay: 0.907
+  m_transitionSpeed: 5
+  m_dragDelay: 0
   backButton: {fileID: 2095092405170416117}
   forwardButton: {fileID: 2095092406114642852}
   indexTable: {fileID: 0}
+--- !u!114 &9099841974476573892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095092405045387137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8945d103369506642970ff135c1299c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewport: {fileID: 2095092404460554739}
+  swipeEvents:
+  - callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2095092405045387138}
+          m_TargetAssemblyTypeName: MagneticScrollView.MagneticScrollRect, Assembly-CSharp
+          m_MethodName: ScrollForward
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    eventID: 4
+  - callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2095092405045387138}
+          m_TargetAssemblyTypeName: MagneticScrollView.MagneticScrollRect, Assembly-CSharp
+          m_MethodName: ScrollBack
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    eventID: 3
+  - callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2095092405045387138}
+          m_TargetAssemblyTypeName: MagneticScrollView.MagneticScrollRect, Assembly-CSharp
+          m_MethodName: SwipeCancel
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    eventID: 0
+  minTime: 0.01
+  maxTime: 0.5
 --- !u!1 &2095092405170416117
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +1010,7 @@ GameObject:
   - component: {fileID: 2095092405898608749}
   - component: {fileID: 2095092405898608738}
   - component: {fileID: 8495911647110553452}
+  - component: {fileID: 3957078076619490990}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -1029,6 +1123,19 @@ MonoBehaviour:
   OnClicked: {fileID: 0}
   hover: 0
   press: 0
+--- !u!114 &3957078076619490990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095092405898608736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa9fb15b7b99ed40954491b66ff9eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 1
 --- !u!1 &2095092405983833040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1149,7 @@ GameObject:
   - component: {fileID: 2095092405983833053}
   - component: {fileID: 2095092405983833042}
   - component: {fileID: 8386396365609206278}
+  - component: {fileID: 8994878663328503541}
   m_Layer: 5
   m_Name: RawImage (1)
   m_TagString: Untagged
@@ -1154,6 +1262,19 @@ MonoBehaviour:
   OnClicked: {fileID: 0}
   hover: 0
   press: 0
+--- !u!114 &8994878663328503541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095092405983833040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa9fb15b7b99ed40954491b66ff9eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 0
 --- !u!1 &2095092405991180812
 GameObject:
   m_ObjectHideFlags: 0

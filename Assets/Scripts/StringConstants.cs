@@ -23,7 +23,10 @@ class StringConstants
 {
 
     public const string ChosseGirlsMenu_Prefab = "ChosseGirlsMenu";
-    
+    public const string StartMenu_Prefab = "StartMenu";
+    public const string MagazinetMenu_Prefab = "MagazinetMenu";
+    public const string PaletteMenu_Prefab = "PaletteMenu";
+
 
 }
 

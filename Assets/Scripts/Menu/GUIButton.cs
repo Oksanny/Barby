@@ -63,18 +63,20 @@ namespace Menus
         public void OnPointerClick(PointerEventData eventData)
         {
             CommonData.mainManager.stateManager.HandleUIEvent(gameObject, null);
-            
+
         }
 
         public void OnPointerDown(PointerEventData eventData)
         {
             press = true;
+           // 
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
             hover = false;
             press = false;
+           
         }
 
         public void OnPointerEnter(PointerEventData eventData)

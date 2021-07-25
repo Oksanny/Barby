@@ -15,7 +15,7 @@ namespace States
 
         public override void Resume(StateExitValue results)
         {
-
+            ShowUI();
         }
         public override void Suspend()
         {
@@ -31,12 +31,12 @@ namespace States
 
         public override void HandleUIEvent(GameObject source, object eventData)
         {
-
-             if (source == GUI_Component.Btn1.gameObject)
+            Debug.Log(source.GetComponent<ConfigGirls>().Name);
+            if (source == GUI_Component.Btn1.gameObject)
              {
                 Debug.Log("Btn");
              }
-            
+            manager.PushState(new MagazineState(source.GetComponent<ConfigGirls>().Name));
         }
     }
 }

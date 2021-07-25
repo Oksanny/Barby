@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+public enum Girls
+{
+    Mimi,
+    Kika,
+    Tali,
+    Rene
+
+}
 namespace Menus
 {
     public class ChooseGirls_GUI : BaseMenu
