@@ -10,3 +10,11 @@ The following packages were added:
   com.unity.analytics@3.5.3
   com.unity.purchasing@3.0.2
   com.unity.xr.legacyinputhelpers@2.1.7
+
+=== Fri Aug  6 00:26:06 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.purchasing from version 3.0.2 to 3.1.0
