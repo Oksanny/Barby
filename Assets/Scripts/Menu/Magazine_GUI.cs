@@ -6,9 +6,15 @@ using UnityEngine.Video;
 namespace Menus{
     public class Magazine_GUI : BaseMenu
     {
-        public VideoClipGirls[] Clips;
+        public Animator animControllerGirls;
+        public Animator animControllerMagazineParent;
+        public Dictionary<Girls, GameObject> assetGirls;
 
-        public Dictionary<Girls, VideoClip> assetVideoClip;
+
+
+
+
+        public GameObjectGirls[] Girls;
         public VideoPlayer vid;
        
        
@@ -20,23 +26,23 @@ namespace Menus{
         public GUIButton Back;
         public void StartVideoAssets()
         {
-            assetVideoClip = new Dictionary<Girls, VideoClip>();
-            foreach (VideoClipGirls entry in Clips)
+            assetGirls = new Dictionary<Girls, GameObject>();
+            foreach (GameObjectGirls entry in Girls)
             {
-                assetVideoClip[entry.name] = entry.clip;
+                assetGirls[entry.name] = entry.girl;
             }
         }
     }
     
 }
 [System.Serializable]
-public struct VideoClipGirls
+public struct GameObjectGirls
 {
-    public VideoClipGirls(Girls name, VideoClip clip)
+    public GameObjectGirls(Girls name, GameObject girl)
     {
         this.name = name;
-        this.clip = clip;
+        this.girl = girl;
     }
     public Girls name;
-    public VideoClip clip;
+    public GameObject girl;
 }

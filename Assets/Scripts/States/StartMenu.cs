@@ -15,7 +15,7 @@ namespace States
 
         public override void Resume(StateExitValue results)
         {
-
+            ShowUI();
         }
         public override void Suspend()
         {

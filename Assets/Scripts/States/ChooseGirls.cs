@@ -31,12 +31,17 @@ namespace States
 
         public override void HandleUIEvent(GameObject source, object eventData)
         {
-            Debug.Log(source.GetComponent<ConfigGirls>().Name);
-            if (source == GUI_Component.Btn1.gameObject)
+          
+            if (source == GUI_Component.BackButton.gameObject)
              {
-                Debug.Log("Btn");
-             }
-            manager.PushState(new MagazineState(source.GetComponent<ConfigGirls>().Name));
+                //manager.SwapState(new States.StartMenu());
+                manager.PopState();
+            }
+            else
+            {
+                manager.PushState(new MagazineState(source.GetComponent<ConfigGirls>().Name));
+            }
+           
         }
     }
 }

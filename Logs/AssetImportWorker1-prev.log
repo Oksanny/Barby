@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise LTSC 2019; OS build 17763.973; Version 1809; 64bit' Language: 'ru' Physical Memory: 6027 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Uriy/Documents/Barby
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57055
+Successfully changed project path to: C:/Users/Uriy/Documents/Barby
+C:/Users/Uriy/Documents/Barby
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 105.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Uriy/Documents/Barby/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   
+    VRAM:     2020 MB
+    Driver:   23.21.13.8857
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001575 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 76.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.453 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2020 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2419.
+Total: 8.397100 ms (FindLiveObjects: 0.301600 ms CreateObjectMapping: 0.106500 ms MarkObjects: 7.504000 ms  DeleteObjects: 0.483100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Menus/ChooseGirlsMenu_Sprite.prefab
+  artifactKey: Guid(8ffc799a8f0b44a41b79f98189a3d7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Menus/ChooseGirlsMenu_Sprite.prefab using Guid(8ffc799a8f0b44a41b79f98189a3d7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9362fff9d865c8b8086fa2f5f310ff8') in 0.103867 seconds
+  Import took 0.110494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 547.355544 seconds.
+  path: Assets/Animation/ChooseGirls/Kika_Go.anim
+  artifactKey: Guid(f9dccd33d361b4a42a7d7c8f99427438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Kika_Go.anim using Guid(f9dccd33d361b4a42a7d7c8f99427438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6900d8442ef2824246e7a8971375ae') in 0.032249 seconds
+  Import took 0.074379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056185 seconds.
+  path: Assets/Animation/ChooseGirls/Kika_Go.anim
+  artifactKey: Guid(f9dccd33d361b4a42a7d7c8f99427438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Kika_Go.anim using Guid(f9dccd33d361b4a42a7d7c8f99427438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6900d8442ef2824246e7a8971375ae') in 0.010974 seconds
+  Import took 0.021731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.264127 seconds.
+  path: Assets/Animation/ChooseGirls/Kika_Go 1.anim
+  artifactKey: Guid(c4c00574e1aa72c46abba4fbbc132aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Kika_Go 1.anim using Guid(c4c00574e1aa72c46abba4fbbc132aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049599ad414189b81b5febc20ddceb93') in 0.020672 seconds
+  Import took 0.051160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003389 seconds.
+  path: Assets/Animation/ChooseGirls/Kika_Go 1.anim
+  artifactKey: Guid(c4c00574e1aa72c46abba4fbbc132aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Kika_Go 1.anim using Guid(c4c00574e1aa72c46abba4fbbc132aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049599ad414189b81b5febc20ddceb93') in 0.007764 seconds
+  Import took 0.013747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.584492 seconds.
+  path: Assets/Animation/ChooseGirls/Kika.controller
+  artifactKey: Guid(7f65916d26bd5ea46a1e1f4cc60001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Kika.controller using Guid(7f65916d26bd5ea46a1e1f4cc60001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e5f444337e0104b791f8cd7293f06a') in 0.027946 seconds
+  Import took 0.070773 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.271972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.743 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2422.
+Total: 14.988400 ms (FindLiveObjects: 0.440200 ms CreateObjectMapping: 0.207200 ms MarkObjects: 13.279000 ms  DeleteObjects: 1.057900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 2943.494823 seconds.
+  path: Assets/Animation/ChooseGirls/Kika_Go 1.anim
+  artifactKey: Guid(0dd08a64e0c2c5848a5cc9e11ca5c0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Kika_Go 1.anim using Guid(0dd08a64e0c2c5848a5cc9e11ca5c0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83b768571147ae0785e7998f8b35372') in 0.051677 seconds
+  Import took 0.095818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1976.188625 seconds.
+  path: Assets/Animation/ChooseGirls/Kika.controller
+  artifactKey: Guid(7f65916d26bd5ea46a1e1f4cc60001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Kika.controller using Guid(7f65916d26bd5ea46a1e1f4cc60001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90ffe047d2e99083e1da4aaa3f2a43e') in 0.160654 seconds
+  Import took 0.396475 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.144016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.897 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 9.230900 ms (FindLiveObjects: 0.386500 ms CreateObjectMapping: 0.174900 ms MarkObjects: 8.181600 ms  DeleteObjects: 0.484900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1619.720315 seconds.
+  path: Assets/Animation/ChooseGirls/Mimi.controller
+  artifactKey: Guid(d48746dbfab05524bac2b0a8b58d4b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Mimi.controller using Guid(d48746dbfab05524bac2b0a8b58d4b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e46aff5a11f69e5f6ad01021567aae') in 0.125946 seconds
+  Import took 0.182195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.249014 seconds.
+  path: Assets/Animation/ChooseGirls/Mimi_idle.anim
+  artifactKey: Guid(0750c979425cd3644a40b3298215315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Mimi_idle.anim using Guid(0750c979425cd3644a40b3298215315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6c726f56ee943e1efd1ddb43540705') in 0.023446 seconds
+  Import took 0.045833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001069 seconds.
+  path: Assets/Animation/ChooseGirls/Mimi_idle.anim
+  artifactKey: Guid(0750c979425cd3644a40b3298215315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Mimi_idle.anim using Guid(0750c979425cd3644a40b3298215315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6c726f56ee943e1efd1ddb43540705') in 0.005162 seconds
+  Import took 0.021525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.774537 seconds.
+  path: Assets/Animation/ChooseGirls/Mimi_Go.anim
+  artifactKey: Guid(9d02daf2ada706c46a3f018d63c38a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Mimi_Go.anim using Guid(9d02daf2ada706c46a3f018d63c38a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd3b62a90ed9cd908f1c8a364c2c05e') in 0.032783 seconds
+  Import took 0.145900 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 2428.
+Total: 9.100300 ms (FindLiveObjects: 0.291200 ms CreateObjectMapping: 0.106600 ms MarkObjects: 8.262000 ms  DeleteObjects: 0.438600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 8.040216 seconds.
+  path: Assets/Animation/ChooseGirls/Mimi_Go 1.anim
+  artifactKey: Guid(f8362783a3e62864b91213fe12b03484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Mimi_Go 1.anim using Guid(f8362783a3e62864b91213fe12b03484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db97044352983ffeed5a65a9f4a514ba') in 0.018258 seconds
+  Import took 0.082235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 776.162638 seconds.
+  path: Assets/Animation/ChooseGirls/Rene_G0.anim
+  artifactKey: Guid(fd46e4e6479e6c241a3ba0e60a050ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Rene_G0.anim using Guid(fd46e4e6479e6c241a3ba0e60a050ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c719754b2ad8be3c4faeabae5278b2') in 0.031493 seconds
+  Import took 0.064196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006171 seconds.
+  path: Assets/Animation/ChooseGirls/Rene_G0.anim
+  artifactKey: Guid(fd46e4e6479e6c241a3ba0e60a050ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Rene_G0.anim using Guid(fd46e4e6479e6c241a3ba0e60a050ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c719754b2ad8be3c4faeabae5278b2') in 0.005053 seconds
+  Import took 0.013274 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.704 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 9.172300 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.111600 ms MarkObjects: 8.319200 ms  DeleteObjects: 0.456400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 5.041034 seconds.
+  path: Assets/Animation/ChooseGirls/Rene_G0 1.anim
+  artifactKey: Guid(fe8b387a9000180429cb1b5f6d08a983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Rene_G0 1.anim using Guid(fe8b387a9000180429cb1b5f6d08a983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9702fb68e1088fc8416113c454db8a') in 0.018039 seconds
+  Import took 0.050579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.372539 seconds.
+  path: Assets/Animation/ChooseGirls/Rene.controller
+  artifactKey: Guid(3971ced222af1c042a6352f8d58ffc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/Rene.controller using Guid(3971ced222af1c042a6352f8d58ffc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae68f54d2e69f279d0fa81d6cbb2e2f') in 0.046783 seconds
+  Import took 0.070620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 554.795589 seconds.
+  path: Assets/Animation/ChooseGirls/TAli_Go 1.anim
+  artifactKey: Guid(d4a199bd7258e794eb2cd7e46946cd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ChooseGirls/TAli_Go 1.anim using Guid(d4a199bd7258e794eb2cd7e46946cd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b339940529429b6e338af22dccb5f87b') in 0.009532 seconds
+  Import took 0.054263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4114.103719 seconds.
+  path: Assets/Animation/Hi_animation/Kika_Hi_Go.anim
+  artifactKey: Guid(02a466d11c26634409398f0c0c119c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hi_animation/Kika_Hi_Go.anim using Guid(02a466d11c26634409398f0c0c119c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994bef3dd5884ec0cf234d86be7e817f') in 0.010704 seconds
+  Import took 0.048427 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.743 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 2434.
+Total: 8.827300 ms (FindLiveObjects: 0.238600 ms CreateObjectMapping: 0.106300 ms MarkObjects: 8.008500 ms  DeleteObjects: 0.471100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 14.369048 seconds.
+  path: Assets/Animation/Hi_animation/Kika_Hi_Go 1.anim
+  artifactKey: Guid(347b9fa183ba01e41afb50ef6042ab42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hi_animation/Kika_Hi_Go 1.anim using Guid(347b9fa183ba01e41afb50ef6042ab42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2664fd6bac55834f347703a2a35e6c68') in 0.018810 seconds
+  Import took 0.043667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.270937 seconds.
+  path: Assets/Animation/Hi_animation/Girl_Sprite.controller
+  artifactKey: Guid(2111be03a6ff7b74b9365f07d3fafd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hi_animation/Girl_Sprite.controller using Guid(2111be03a6ff7b74b9365f07d3fafd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b433cc15c2029887cc028c60cd2f75ea') in 0.050151 seconds
+  Import took 0.079704 seconds .
+

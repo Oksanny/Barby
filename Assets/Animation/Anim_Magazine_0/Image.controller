@@ -89,10 +89,7 @@ AnimatorStateMachine:
     m_Position: {x: 350, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4272070126400072115}
-    m_Position: {x: 350, y: -280, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -3900045968589802288}
-    m_Position: {x: 350, y: -350, z: 0}
+    m_Position: {x: 160, y: -290, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 2763774958835434885}
@@ -104,7 +101,6 @@ AnimatorStateMachine:
   - {fileID: -9023484654658706401}
   - {fileID: 3772295072308586750}
   - {fileID: -3750157917500964797}
-  - {fileID: -976741375268499550}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
@@ -428,12 +424,6 @@ AnimatorController:
   m_Name: Image
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: 01
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   - m_Name: 10
     m_Type: 9
     m_DefaultFloat: 0

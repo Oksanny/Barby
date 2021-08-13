@@ -18,6 +18,7 @@ namespace Menus
         public GUIButton Btn2;
         public GUIButton Btn3;
         public GUIButton Btn4;
+        public GUIButton BackButton;
         public void Back()
         {
             Debug.Log("Back");
@@ -34,19 +35,28 @@ namespace Menus
         public void SwipeScrolling()
         {
             Debug.Log("SwipeScrollin");
-            Btn1.gameObject.GetComponent<VideoPlayer>().Stop();
-            Btn2.gameObject.GetComponent<VideoPlayer>().Stop();
-            Btn3.gameObject.GetComponent<VideoPlayer>().Stop();
-            Btn4.gameObject.GetComponent<VideoPlayer>().Stop();
+            Btn1.gameObject.GetComponent<Animator>().SetTrigger("Idle");
+            Btn2.gameObject.GetComponent<Animator>().SetTrigger("Idle");
+            Btn3.gameObject.GetComponent<Animator>().SetTrigger("Idle");
+            Btn4.gameObject.GetComponent<Animator>().SetTrigger("Idle");
+            Btn1.gameObject.GetComponent<AudioSource>().Stop();
+            Btn2.gameObject.GetComponent<AudioSource>().Stop();
+            Btn3.gameObject.GetComponent<AudioSource>().Stop();
+            Btn4.gameObject.GetComponent<AudioSource>().Stop();
         }
         public void Selecter(GameObject charecter)
         {
             Debug.Log(charecter.name);
-            Btn1.gameObject.GetComponent<VideoPlayer>().Stop();
-            Btn2.gameObject.GetComponent<VideoPlayer>().Stop();
-            Btn3.gameObject.GetComponent<VideoPlayer>().Stop();
-            Btn4.gameObject.GetComponent<VideoPlayer>().Stop();
-            charecter.gameObject.GetComponent<VideoPlayer>().Play();
+            Btn1.gameObject.GetComponent<Animator>().SetTrigger("Idle");
+            Btn2.gameObject.GetComponent<Animator>().SetTrigger("Idle");
+            Btn3.gameObject.GetComponent<Animator>().SetTrigger("Idle");
+            Btn4.gameObject.GetComponent<Animator>().SetTrigger("Idle");
+            Btn1.gameObject.GetComponent<AudioSource>().Stop();
+            Btn2.gameObject.GetComponent<AudioSource>().Stop();
+            Btn3.gameObject.GetComponent<AudioSource>().Stop();
+            Btn4.gameObject.GetComponent<AudioSource>().Stop();
+            charecter.gameObject.GetComponent<Animator>().SetTrigger("Go");
+            charecter.gameObject.GetComponent<AudioSource>().Play();
         }
     }
 }

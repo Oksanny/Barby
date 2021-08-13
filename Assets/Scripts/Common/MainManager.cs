@@ -34,8 +34,10 @@ public class MainManager : MonoBehaviour
        
         CommonData.mainManager = this;
         CommonData.stateManager = stateManager;
-      
-        stateManager.PushState(new States.StartMenu());
+
+         stateManager.PushState(new States.StartMenu());
+       // stateManager.PushState(new States.PaletteChoose(Girls.Tali ,4));
     }
-    
 }
+    
+

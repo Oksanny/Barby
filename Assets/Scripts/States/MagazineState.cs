@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 namespace States
 {
     public class MagazineState : BaseState
@@ -22,22 +23,27 @@ namespace States
         public MagazineState(Girls name)
         {
             NameGirls = name;
+            Debug.Log(NameGirls.ToString());
         }
         public override void Initialize()
         {
             GUI_Component = SpawnUI<Menus.Magazine_GUI>(StringConstants.MagazinetMenu_Prefab);
-            GUI_Component.vid.loopPointReached += CheckOver;
             GUI_Component.StartVideoAssets();
-            GUI_Component.vid.clip = GUI_Component.assetVideoClip[NameGirls];
-            GUI_Component.vid.Play();
+            GUI_Component.assetGirls[ NameGirls].SetActive(true);
+            GUI_Component.animControllerGirls.GetComponent<AudioSource>().Play();
+           
+           // GUI_Component.vid.loopPointReached += CheckOver;
+           // GUI_Component.StartVideoAssets();
+           // GUI_Component.vid.clip = GUI_Component.assetVideoClip[NameGirls];
+           // GUI_Component.vid.Play();
             Points.Add(0);
 
         }
-        public void CheckOver(UnityEngine.Video.VideoPlayer vp)
-        {
-            Debug.Log("Video Is Over");
-            isPlayingHi = true;
-        }
+      //  public void CheckOver(UnityEngine.Video.VideoPlayer vp)
+      //  {
+      //      Debug.Log("Video Is Over");
+      //      isPlayingHi = true;
+      //  }
         public override void Update()
         {
             if (GUI_Component.animControllerBack.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && isEndAnimation)
@@ -71,7 +77,7 @@ namespace States
                     {
                         Debug.Log("CHOOSE " + Points[Points.Count - 1]);
                         isEndAnimation = true;
-                        GUI_Component.animController.SetTrigger("End");
+                        GUI_Component.animControllerMagazineParent.SetTrigger("End");
                         GUI_Component.animControllerBack.SetTrigger("Back_2");
                         GUI_Component.animControllerGirl.SetTrigger("Girl_1");
                         CommonData.prefabs.StartCoroutine(StartNexState());
@@ -161,12 +167,12 @@ namespace States
         IEnumerator StartNexState()
         {
             yield return new WaitForSeconds(4);
-            manager.PushState(new PaletteChoose());
+            manager.PushState(new PaletteChoose(NameGirls, Points[Points.Count - 1]));
         }
         public override void HandleUIEvent(GameObject source, object eventData)
         {
             Debug.Log("Btn1");
-            if (source == GUI_Component.ChooseModel.gameObject&&isPlayingHi&&!isPlaingStartMagazine && !isEndAnimation)
+            if (source == GUI_Component.ChooseModel.gameObject&&!isPlaingStartMagazine && !isEndAnimation)
              {
                
                 Debug.Log("Btn2");

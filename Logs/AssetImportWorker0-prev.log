@@ -1,225 +1,54 @@
 Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise LTSC 2019; OS build 17763.973; Version 1809; 64bit' Language: 'ru' Physical Memory: 6027 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/oksana/Documents/Barby
+C:/Users/Uriy/Documents/Barby
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49843
-Successfully changed project path to: /Users/oksana/Documents/Barby
-/Users/oksana/Documents/Barby
+57055
+Successfully changed project path to: C:/Users/Uriy/Documents/Barby
+C:/Users/Uriy/Documents/Barby
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 435.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/oksana/Documents/Barby/Assets
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Uriy/Documents/Barby/Assets
 GfxDevice: creating device client; threaded=0
-2021-08-05 15:54:41.043 Unity[3348:47593] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-08-05 15:54:41.043 Unity[3348:47593] Metal devices available: 1
-2021-08-05 15:54:41.043 Unity[3348:47593] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-08-05 15:54:41.043 Unity[3348:47593] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   
+    VRAM:     2020 MB
+    Driver:   23.21.13.8857
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002950 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 44.34 ms, found 2 plugins.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.185316 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.874 seconds
+- Completed reload, in  6.552 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011226 seconds.
+Registered in 0.955808 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2000 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.1 MB.
-System memory in use after: 163.2 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2407.
-Total: 5.456178 ms (FindLiveObjects: 0.236392 ms CreateObjectMapping: 0.062060 ms MarkObjects: 5.068762 ms  DeleteObjects: 0.087951 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/PNGS
-  artifactKey: Guid(cdbdb4d0a147f4478ada729a3927db20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS using Guid(cdbdb4d0a147f4478ada729a3927db20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3aa2b2efb294e3289a0c7e456f6f835') in 0.004657 seconds
-  Import took 0.008458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14908.866861 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00000.png
-  artifactKey: Guid(564a127e69f8944db9c6f932e4a8c475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00000.png using Guid(564a127e69f8944db9c6f932e4a8c475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f5e6f54070d8a9df3ca5f6c81f68cc') in 1.941434 seconds
-  Import took 1.964048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.403100 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00105.png
-  artifactKey: Guid(b0718024a8bf34fe497461c23fc7e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00105.png using Guid(b0718024a8bf34fe497461c23fc7e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44abce67317787c83f715d3d17520fb') in 0.702758 seconds
-  Import took 0.711636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.700377 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00105.png
-  artifactKey: Guid(b0718024a8bf34fe497461c23fc7e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00105.png using Guid(b0718024a8bf34fe497461c23fc7e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44abce67317787c83f715d3d17520fb') in 0.090154 seconds
-  Import took 0.094993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 843.661835 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00105.png
-  artifactKey: Guid(b0718024a8bf34fe497461c23fc7e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00105.png using Guid(b0718024a8bf34fe497461c23fc7e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC12X12 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b5ed9d3df0a2a31db5f68a88df9724fd') in 0.899367 seconds
-  Import took 0.908375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 228.634569 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00001.png
-  artifactKey: Guid(459262e63cb274b3c87c6a22231625ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseKIKA/KIKA_00001.png using Guid(459262e63cb274b3c87c6a22231625ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC12X12 UNorm format is not supported, decompressing texture
- -> (artifact id: '7fe611c583e09b5c5bac1ca5d092cf15') in 0.073876 seconds
-  Import took 0.078333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.318144 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseMIMI/MIMI_00000.png
-  artifactKey: Guid(59ac8e5cc7a2d42219dccee274c2682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseMIMI/MIMI_00000.png using Guid(59ac8e5cc7a2d42219dccee274c2682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27511fc3b935b600ddbaba356f5a114c') in 0.105642 seconds
-  Import took 0.110046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.254001 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseMIMI/MIMI_00071.png
-  artifactKey: Guid(792685096f6d241648692ea4d5deb138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseMIMI/MIMI_00071.png using Guid(792685096f6d241648692ea4d5deb138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4890163b85171203865520b152408544') in 0.352644 seconds
-  Import took 0.377070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 681.909816 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseMIMI/MIMI_00071.png
-  artifactKey: Guid(792685096f6d241648692ea4d5deb138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseMIMI/MIMI_00071.png using Guid(792685096f6d241648692ea4d5deb138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC12X12 UNorm format is not supported, decompressing texture
- -> (artifact id: '6721962f697151663995c7735d588089') in 0.104923 seconds
-  Import took 0.112020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009843 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseMIMI/MIMI_00071.png
-  artifactKey: Guid(792685096f6d241648692ea4d5deb138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseMIMI/MIMI_00071.png using Guid(792685096f6d241648692ea4d5deb138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC12X12 UNorm format is not supported, decompressing texture
- -> (artifact id: '6721962f697151663995c7735d588089') in 0.177398 seconds
-  Import took 0.184909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9849.985257 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseRENE/RENE_00000.png
-  artifactKey: Guid(c78d1a189352748afbe4d3fde6a9a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseRENE/RENE_00000.png using Guid(c78d1a189352748afbe4d3fde6a9a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f2db90dcc989169d6ee47a62a8684b') in 0.184194 seconds
-  Import took 0.225723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.302479 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseRENE/RENE_00008.png
-  artifactKey: Guid(745b1643c80f744df9ede33e1993c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseRENE/RENE_00008.png using Guid(745b1643c80f744df9ede33e1993c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b0cfc5cfffbc4835a73fb77fd346ba') in 0.736672 seconds
-  Import took 0.766001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.590258 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseRENE/RENE_00008.png
-  artifactKey: Guid(745b1643c80f744df9ede33e1993c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseRENE/RENE_00008.png using Guid(745b1643c80f744df9ede33e1993c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b0cfc5cfffbc4835a73fb77fd346ba') in 0.098060 seconds
-  Import took 0.102452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 363.400531 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseRENE/RENE_00008.png
-  artifactKey: Guid(745b1643c80f744df9ede33e1993c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseRENE/RENE_00008.png using Guid(745b1643c80f744df9ede33e1993c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC12X12 UNorm format is not supported, decompressing texture
- -> (artifact id: '3d4081a755515f3d4fca355e25f64b13') in 0.107953 seconds
-  Import took 0.114554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1027.719389 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseTALIpng/Tali.mp3
-  artifactKey: Guid(202577e387c6a47379004116a3c3417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseTALIpng/Tali.mp3 using Guid(202577e387c6a47379004116a3c3417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00f013c1adbb00abb6fd9dca15ac0f7') in 2.025489 seconds
-  Import took 2.030836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseTALIpng/TALI_00000.png
-  artifactKey: Guid(88bb0e6a1453d4780b4782188d8480b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseTALIpng/TALI_00000.png using Guid(88bb0e6a1453d4780b4782188d8480b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f4fa4b913f2e37b595e55350f7d58a') in 0.115212 seconds
-  Import took 0.118845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.755555 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseTALIpng/TALI_00008.png
-  artifactKey: Guid(8371fc85affe6408087845c7e5d627b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseTALIpng/TALI_00008.png using Guid(8371fc85affe6408087845c7e5d627b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad284072daf70fe063828d5c5fc02e8') in 0.392619 seconds
-  Import took 0.424528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 830.974354 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseTALIpng/TALI_00008.png
-  artifactKey: Guid(8371fc85affe6408087845c7e5d627b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseTALIpng/TALI_00008.png using Guid(8371fc85affe6408087845c7e5d627b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC12X12 UNorm format is not supported, decompressing texture
- -> (artifact id: '0d860a8639dd3ea6acddb33776ee5994') in 0.135519 seconds
-  Import took 0.144983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.150005 seconds.
-  path: Assets/PNGS/Choose PNGs/chooseTALIpng/TALI_00008.png
-  artifactKey: Guid(8371fc85affe6408087845c7e5d627b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PNGS/Choose PNGs/chooseTALIpng/TALI_00008.png using Guid(8371fc85affe6408087845c7e5d627b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC12X12 UNorm format is not supported, decompressing texture
- -> (artifact id: '0d860a8639dd3ea6acddb33776ee5994') in 0.078415 seconds
-  Import took 0.083075 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
